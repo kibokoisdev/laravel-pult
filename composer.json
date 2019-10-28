@@ -1,0 +1,31 @@
+{
+    "name": "kibokoisdev/laravel-pult",
+    "description": "Продвинутые настройки",
+    "authors": [
+        {
+            "name": "Kiboko",
+            "email": "iam@kiboko.ru"
+        }
+    ],
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Kiboko\\Pult\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+
+    "require": {
+        "illuminate/support": "~5",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kiboko\\Pult\\PultServiceProvider"
+            ]
+        }
+    }
+
+}
