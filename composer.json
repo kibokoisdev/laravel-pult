@@ -17,14 +17,5 @@
     "require": {
         "illuminate/support": "~5",
         "guzzlehttp/guzzle": "~6.0"
-    },
-
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Kiboko\\Pult\\PultServiceProvider"
-            ]
-        }
     }
-
 }
